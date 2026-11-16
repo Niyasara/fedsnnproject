@@ -1,0 +1,33 @@
+============================================================
+SINGLE-CLIENT DELTA-SSM SNN TRAINING
+============================================================
+
+Device: cuda
+GPU: Quadro P2200
+CUDA: 12.1
+Clients: 1
+Training samples: 60000
+Testing samples: 10000
+Batch size: 32
+Local epochs: 5
+Optimizer: Adam
+Learning rate: 0.001
+Threshold: 1.0
+
+EPOCH RESULTS
+------------------------------------------------------------
+Epoch 1: Train Loss = 2.3020, Train Accuracy = 11.02%, Test Loss = 2.3021, Test Accuracy = 11.35%, Precision = 0.0129, Recall = 0.1135, F1 = 0.0231
+Epoch 2: Train Loss = 2.3018, Train Accuracy = 11.09%, Test Loss = 2.3013, Test Accuracy = 11.35%, Precision = 0.0129, Recall = 0.1135, F1 = 0.0231
+Epoch 3: Train Loss = 2.3016, Train Accuracy = 11.25%, Test Loss = 2.3019, Test Accuracy = 10.28%, Precision = 0.0106, Recall = 0.1028, F1 = 0.0192
+Epoch 4: Train Loss = 2.3017, Train Accuracy = 11.23%, Test Loss = 2.3012, Test Accuracy = 11.35%, Precision = 0.0129, Recall = 0.1135, F1 = 0.0231
+Epoch 5: Train Loss = 2.3015, Train Accuracy = 11.19%, Test Loss = 2.3012, Test Accuracy = 11.35%, Precision = 0.0129, Recall = 0.1135, F1 = 0.0231
+
+FINAL RESULTS
+------------------------------------------------------------
+Final Train Accuracy: 11.19%
+Final Train Loss: 2.3015
+Final Test Accuracy: 11.35%
+Final Test Loss: 2.3012
+Final Precision: 0.0129
+Final Recall: 0.1135
+Final F1 Score: 0.0231

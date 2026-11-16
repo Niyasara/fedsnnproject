@@ -1,0 +1,42 @@
+[project]
+name = "federated-event-trigger"
+version = "1.1.5"
+description = "Event-Triggered Federated SNN"
+license = {text = "MIT"}
+
+dependencies = [
+    "flwr[simulation]==1.35.0",
+    "torch==2.5.1",
+    "snntorch",
+    "tqdm",
+    "numpy",
+    "matplotlib"
+]
+
+[tool.flwr.app]
+publisher = "niya"
+
+[tool.flwr.app.components]
+serverapp = "server_app:app"
+clientapp = "client_app:app"
+
+# Defaults only. The run script overrides delta and num-clients every run.
+[tool.flwr.app.config]
+num-server-rounds = 50
+fraction-train = 1.0
+fraction-evaluate = 0.0
+local-epochs = 5
+batch-size = 32
+learning-rate = 0.001
+delta = 0.0001
+num-clients = 5
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu121" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true

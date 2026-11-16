@@ -1,0 +1,57 @@
+======================================================================
+SINGLE-CLIENT DELTA-LIF SNN TRAINING SUMMARY
+======================================================================
+
+Device: cuda
+GPU: Quadro P2200
+Dataset: N-MNIST
+Clients: 1
+Training samples: 60000
+Testing samples: 10000
+Batch size: 32
+Local epochs: 5
+Optimizer: Adam
+Learning rate: 0.001
+Total parameters: 297358
+Trainable parameters: 297358
+
+Epoch Results
+----------------------------------------------------------------------
+Epoch 1: Train Loss = 0.4046, Train Accuracy = 86.94%, Test Loss = 0.2187, Test Accuracy = 93.47%, Precision = 93.65%, Recall = 93.47%, F1 Score = 93.45%
+Epoch 2: Train Loss = 0.1623, Train Accuracy = 95.16%, Test Loss = 0.1719, Test Accuracy = 94.97%, Precision = 95.10%, Recall = 94.97%, F1 Score = 94.97%
+Epoch 3: Train Loss = 0.1205, Train Accuracy = 96.49%, Test Loss = 0.1484, Test Accuracy = 95.60%, Precision = 95.68%, Recall = 95.60%, F1 Score = 95.59%
+Epoch 4: Train Loss = 0.0940, Train Accuracy = 97.26%, Test Loss = 0.1573, Test Accuracy = 95.59%, Precision = 95.66%, Recall = 95.59%, F1 Score = 95.60%
+Epoch 5: Train Loss = 0.0808, Train Accuracy = 97.66%, Test Loss = 0.1410, Test Accuracy = 96.06%, Precision = 96.15%, Recall = 96.06%, F1 Score = 96.07%
+
+======================================================================
+FINAL RESULTS
+======================================================================
+
+Final Train Loss: 0.0808
+Final Train Accuracy: 97.66%
+Final Test Loss: 0.1410
+Final Test Accuracy: 96.06%
+Final Precision: 96.15%
+Final Recall: 96.06%
+Final F1 Score: 96.07%
+
+Classification Report
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.9640    0.9837    0.9737       980
+           1     0.9928    0.9709    0.9817      1135
+           2     0.9300    0.9777    0.9532      1032
+           3     0.9884    0.9307    0.9587      1010
+           4     0.9852    0.9481    0.9663       982
+           5     0.9675    0.9686    0.9681       892
+           6     0.9562    0.9802    0.9680       958
+           7     0.9674    0.9514    0.9593      1028
+           8     0.9001    0.9620    0.9300       974
+           9     0.9593    0.9336    0.9463      1009
+
+    accuracy                         0.9606     10000
+   macro avg     0.9611    0.9607    0.9605     10000
+weighted avg     0.9615    0.9606    0.9607     10000
+
+

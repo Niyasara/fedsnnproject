@@ -1,0 +1,6 @@
+Metric,Value
+Accuracy (%),11.35
+Precision,0.01288225
+Recall,0.1135
+F1 Score,0.023138302649304
+Test Loss,2.301212334060669

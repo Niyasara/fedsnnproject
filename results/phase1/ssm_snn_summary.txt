@@ -1,0 +1,57 @@
+======================================================================
+SINGLE-CLIENT SSM SNN TRAINING SUMMARY
+======================================================================
+
+Device: cuda
+GPU: Quadro P2200
+CUDA: 12.1
+Dataset: N-MNIST
+Clients: 1
+Training samples: 60000
+Testing samples: 10000
+Batch size: 32
+Local epochs: 5
+Optimizer: Adam
+Learning rate: 0.001
+Total parameters: 330378
+Trainable parameters: 330378
+
+Epoch Results
+----------------------------------------------------------------------
+Epoch 1: Train Loss = 0.2954, Train Accuracy = 90.72%, Test Loss = 0.1418, Test Accuracy = 95.65%, Precision = 95.69%, Recall = 95.65%, F1 Score = 95.65%
+Epoch 2: Train Loss = 0.1155, Train Accuracy = 96.47%, Test Loss = 0.1211, Test Accuracy = 96.42%, Precision = 96.47%, Recall = 96.42%, F1 Score = 96.43%
+Epoch 3: Train Loss = 0.0714, Train Accuracy = 97.76%, Test Loss = 0.1310, Test Accuracy = 96.13%, Precision = 96.25%, Recall = 96.13%, F1 Score = 96.15%
+Epoch 4: Train Loss = 0.0497, Train Accuracy = 98.44%, Test Loss = 0.1389, Test Accuracy = 96.00%, Precision = 96.08%, Recall = 96.00%, F1 Score = 96.00%
+Epoch 5: Train Loss = 0.0378, Train Accuracy = 98.80%, Test Loss = 0.1102, Test Accuracy = 96.86%, Precision = 96.88%, Recall = 96.86%, F1 Score = 96.86%
+
+FINAL RESULTS
+======================================================================
+Final Train Loss: 0.0378
+Final Train Accuracy: 98.80%
+Final Test Loss: 0.1102
+Final Test Accuracy: 96.86%
+Final Precision: 96.88%
+Final Recall: 96.86%
+Final F1 Score: 96.86%
+
+Classification Report
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           0     0.9574    0.9867    0.9719       980
+           1     0.9946    0.9762    0.9853      1135
+           2     0.9644    0.9719    0.9681      1032
+           3     0.9684    0.9703    0.9693      1010
+           4     0.9885    0.9644    0.9763       982
+           5     0.9582    0.9776    0.9678       892
+           6     0.9641    0.9823    0.9731       958
+           7     0.9744    0.9611    0.9677      1028
+           8     0.9396    0.9579    0.9487       974
+           9     0.9733    0.9386    0.9556      1009
+
+    accuracy                         0.9686     10000
+   macro avg     0.9683    0.9687    0.9684     10000
+weighted avg     0.9688    0.9686    0.9686     10000
+
+
+

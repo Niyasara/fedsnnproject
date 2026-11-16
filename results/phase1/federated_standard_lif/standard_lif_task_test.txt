@@ -1,0 +1,29 @@
+============================================================
+STANDARD LIF - FEDERATED LEARNING TASK TEST
+============================================================
+
+Device: cuda
+GPU: NVIDIA GeForce RTX 4090
+Number of clients: 5
+Local epochs: 5
+Batch size: 32
+Learning rate: 0.001
+
+Training samples: 60000
+Testing samples: 10000
+
+Model: LIFSNN
+Total parameters: 25434
+Trainable parameters: 25434
+
+Input shape: (32, 10, 2, 34, 34)
+Target shape: (32,)
+Output shape: (10, 32, 10)
+Logits shape: (32, 10)
+Batch accuracy: 3.12%
+
+N-MNIST dataset loader: OK
+Standard LIF model: OK
+CUDA / GPU: OK
+TQDM: OK
+Task test completed successfully.

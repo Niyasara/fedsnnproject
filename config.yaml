@@ -1,0 +1,35 @@
+project:
+  name: Federated-SNN-Loss-Triggering
+
+dataset:
+  name: N-MNIST
+  train_samples: 60000
+  test_samples: 10000
+
+federated_learning:
+  clients: 5
+  rounds: 50
+  local_epochs: 5
+  batch_size: 32
+  aggregation: FedAvg
+
+training:
+  optimizer: Adam
+  learning_rate: 0.001
+
+triggering:
+  methods:
+    - fixed_threshold
+    - adaptive_threshold
+
+  threshold_values:
+    - 0.0001
+    - 0.001
+    - 0.005
+
+evaluation:
+  metrics:
+    - accuracy
+    - loss
+    - communication_rounds
+    - upload_count

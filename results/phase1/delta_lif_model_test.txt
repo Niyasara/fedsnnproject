@@ -1,0 +1,20 @@
+============================================================
+DELTA-LIF SNN MODEL TEST
+============================================================
+
+Device: cuda
+Total parameters: 297358
+Trainable parameters: 297358
+Input shape: (32, 10, 2, 34, 34)
+Output shape: (10, 32, 10)
+Expected shape: (10, 32, 10)
+Output verification: PASSED
+Total output spikes: 0.0
+
+Delta-LIF parameters
+Hidden Delta_log: -1.0
+Hidden Gamma_log: 0.0
+Hidden alpha: 0.6922006011009216
+Output Delta_log: -1.0
+Output Gamma_log: 0.0
+Output alpha: 0.6922006011009216

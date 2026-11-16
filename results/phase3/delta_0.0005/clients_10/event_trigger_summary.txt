@@ -1,0 +1,11 @@
+PHASE 3 - EVENT-TRIGGERED FEDERATED SNN
+============================================================
+Threshold delta: 0.0005
+Clients: 10
+Communication rounds: 50
+Baseline uploads: 500
+Event-triggered uploads: 260
+Overall upload frequency: 52.00%
+Communication reduction: 48.00%
+Final global test accuracy: 98.4700%
+Final global test loss: 0.060275

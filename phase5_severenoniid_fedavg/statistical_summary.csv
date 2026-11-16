@@ -1,0 +1,9 @@
+Metric,Mean,Sample_Std_Dev,Mean_Plus_Minus_SD,Number_of_Runs
+Final test accuracy,64.36,4.17,64.36 +/- 4.17,3
+Final test loss,1.0041,0.091,1.0041 +/- 0.0910,3
+Final macro precision,71.98,5.04,71.98 +/- 5.04,3
+Final macro recall,63.4,4.13,63.40 +/- 4.13,3
+Final macro F1,57.03,3.53,57.03 +/- 3.53,3
+Peak test accuracy,67.43,2.68,67.43 +/- 2.68,3
+Mean accuracy (last 10),64.97,4.18,64.97 +/- 4.18,3
+Stability (accuracy std),1.0222,0.4041,1.0222 +/- 0.4041,3

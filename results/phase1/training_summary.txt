@@ -1,0 +1,50 @@
+======================================================================
+STANDARD LIF-SNN SINGLE-CLIENT TRAINING SUMMARY
+======================================================================
+
+Device: cuda
+GPU: Quadro P2200
+CUDA: 12.1
+
+Dataset: N-MNIST
+Training samples: 60000
+Testing samples: 10000
+Batch size: 32
+Local epochs: 5
+Learning rate: 0.001
+Optimizer: Adam
+Neuron: Standard LIF
+
+======================================================================
+FINAL RESULTS
+======================================================================
+
+Final Training Loss: 0.053007
+Final Training Accuracy: 98.38%
+Final Test Loss: 0.058584
+Final Test Accuracy: 98.01%
+Precision: 98.03%
+Recall: 98.01%
+F1 Score: 98.01%
+Total Test Loss: 585.842143
+
+======================================================================
+CLASSIFICATION REPORT
+======================================================================
+
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       980
+           1       0.99      0.99      0.99      1135
+           2       0.96      0.99      0.98      1032
+           3       0.98      0.98      0.98      1010
+           4       0.99      0.98      0.99       982
+           5       0.99      0.97      0.98       892
+           6       0.99      0.98      0.98       958
+           7       0.98      0.98      0.98      1028
+           8       0.98      0.95      0.97       974
+           9       0.97      0.97      0.97      1009
+
+    accuracy                           0.98     10000
+   macro avg       0.98      0.98      0.98     10000
+weighted avg       0.98      0.98      0.98     10000

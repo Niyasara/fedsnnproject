@@ -1,0 +1,11 @@
+PHASE 4 (phase3.1) - ADAPTIVE EVENT-TRIGGERED FEDERATED SNN
+============================================================
+Alpha: 0.1
+Clients: 5
+Communication rounds: 50
+Baseline uploads: 250
+Event-triggered uploads: 73
+Overall upload frequency: 29.20%
+Communication reduction: 70.80%
+Final global test accuracy: 98.3000%
+Final global test loss: 0.066585

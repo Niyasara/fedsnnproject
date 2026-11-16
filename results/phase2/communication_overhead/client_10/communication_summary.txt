@@ -1,0 +1,22 @@
+PHASE 2: COMMUNICATION OVERHEAD ANALYSIS
+CONVENTIONAL SYNCHRONOUS FEDAVG - 10 CLIENTS
+
+Number of Clients       : 10
+Communication Rounds    : 50
+Uploads per Round       : 10
+Total Number of Uploads : 500
+Client Participation    : 100.00%
+Model Parameters        : 25434
+Model Size              : 0.097023 MB
+Data per Round          : 0.970230 MB
+Total Data Transferred  : 48.511505 MB
+Aggregation Frequency   : Every communication round
+
+COMMUNICATION COST
+CommCost = 500 uploads
+
+CONVERGENCE ANALYSIS
+Round 1 Accuracy        : 96.0300%
+Final Accuracy          : 98.4700%
+Round 1 Loss            : 0.131383
+Final Loss              : 0.056560

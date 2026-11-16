@@ -1,0 +1,10 @@
+PHASE 5 (phase4.async) - ASYNCHRONOUS AGGREGATION
+============================================================
+Eta: 0.3
+Min train nodes: 1
+Clients: 5
+Communication rounds: 50
+Total client replies: 250
+Total incremental updates applied: 250
+Final global test accuracy: 98.4800%
+Final global test loss: 0.059795

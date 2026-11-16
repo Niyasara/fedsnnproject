@@ -1,0 +1,13 @@
+EXPERIMENT 6 - SEVERE NON-IID FEDAVG
+============================================================
+Clients: 5
+Non-IID alpha: 0.1 (severe)
+Communication rounds: 50
+Final global test accuracy: 59.6200%
+Final global test loss: 1.099358
+Final macro precision: 66.1750%
+Final macro recall: 58.7038%
+Final macro F1: 53.2842%
+Peak global test accuracy: 64.5300% (round 37)
+Mean accuracy over last 10 rounds: 60.1820%
+Stability (std dev of accuracy, last 10 rounds): 1.4886

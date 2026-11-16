@@ -1,0 +1,22 @@
+============================================================
+LIF SNN MODEL TEST
+============================================================
+
+Device: cpu
+Model: LIFSNN
+Neuron: Leaky Integrate-and-Fire (LIF)
+Number of classes: 10
+Time steps: 10
+Input channels: 2
+Input size: 34 x 34
+
+Total parameters: 25434
+Trainable parameters: 25434
+
+Input shape: (32, 10, 2, 34, 34)
+Output shape: (10, 32, 10)
+Expected output shape: (10, 32, 10)
+Total output spikes: 6.0
+
+Output shape verification: PASSED
+SNN model test completed successfully.

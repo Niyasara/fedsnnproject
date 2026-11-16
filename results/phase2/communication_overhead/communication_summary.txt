@@ -1,0 +1,22 @@
+PHASE 2: COMMUNICATION OVERHEAD ANALYSIS
+Conventional Synchronous FedAvg Baseline
+
+Number of Clients       : 5
+Communication Rounds    : 50
+Uploads per Round       : 5
+Total Number of Uploads : 250
+Client Participation    : 100.00%
+Model Parameters        : 25434
+Model Size              : 0.097023 MB
+Data per Round          : 0.485115 MB
+Total Data Transferred  : 24.255753 MB
+Aggregation Frequency   : Every communication round
+
+Communication Cost:
+CommCost = 250 uploads
+
+Convergence Analysis:
+Round 1 Accuracy        : 96.9600%
+Final Accuracy          : 98.4300%
+Round 1 Loss            : 0.110797
+Final Loss              : 0.070388

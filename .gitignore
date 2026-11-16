@@ -1,0 +1,54 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset folders
+data/
+dataset/
+
+# Dataset folders inside experiment phases
+federated_standard_lif/dataset/
+phase3_event_trigger/dataset/
+
+# Exclude all experiment log directories
+logs/
+log/
+
+# Results: upload only CSV and TXT files
+results/**
+!results/**/
+!results/**/*.csv
+!results/**/*.txt
+
+# federated_standard_lif results: upload CSV files only
+federated_standard_lif/results/**
+!federated_standard_lif/results/**/
+!federated_standard_lif/results/**/*.csv
+phase5_severenoniid_fedavg/IID_NonIID_Comparison.png
