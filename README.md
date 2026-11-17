@@ -39,11 +39,11 @@ The following strategies are investigated:
 3. **Adaptive Threshold:** Communication is controlled using an adaptive triggering threshold.
 4. **Asynchronous Aggregation:** The server processes client updates as they arrive without waiting for all clients.
 
-## 11. Experimental Results
+## 5 Experimental Results
 
 The proposed ETA-FL framework was evaluated using the N-MNIST dataset to investigate classification performance, communication efficiency, and the effect of different client data distributions.
 
-# 11.1 Overall Findings
+# 5.1 Overall Findings
 
 Standard LIF provides the best classification performance among the evaluated SNN variants.
 
